@@ -6,9 +6,14 @@ A simple console-based Car Rental System built using Object-Oriented Programming
 ## :wrench: Changelog
 
 ### :new: Version 0.1
+
 - Add vehicles (cars and motorcyles) to the system
 - View available vehicles
 - Rent and return vehicles
+
+### :new: Version 0.1.1
+
+- Add Van vehicles.
 
 ---
 

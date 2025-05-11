@@ -62,4 +62,18 @@
             Console.WriteLine($"Motorcycle - Has Sidecar: {HasSidecar}");
         }
     }
+    class Van : Vehicle
+    {
+        public bool HasSlidingDoor { get; set; }
+        public Van(string make, string model, int year, bool hasSlidingDoor) : base(make, model, year)
+        {
+            HasSlidingDoor = hasSlidingDoor;
+        }
+
+        public override void DisplayInfo()
+        {
+            base.DisplayInfo();
+            Console.WriteLine($"Van - Has Sliding Door: {HasSlidingDoor}");
+        }
+    }
 }
